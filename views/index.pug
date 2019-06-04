@@ -1,9 +1,37 @@
 extends layout
 
 block content
-    div.line
-        div.square Working harder
-        div.square Make it better
-    div.line
-        div.square Do it faster
-        div.square Makes us stronger
+    table
+        tr
+            th id
+            th atrist name
+            th track name
+        each track in tracks
+            tr
+                each elem in track
+                    td= elem
+
+        - var track = tracks[0]
+        tr
+            each elem in track
+                td= elem
+        - var track = tracks[1]
+        tr
+            each elem in track
+                td= elem
+        - var track = tracks[2]
+        tr
+            each elem in track
+                td= elem
+        - var track = tracks[3]
+        tr
+            each elem in track
+                td= elem
+    //
+    //
+    //div.line
+    //    div.square= square1
+    //    div.square= square2
+    //div.line
+    //    div.square= square3
+    //    div.square= square4
