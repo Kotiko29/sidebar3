@@ -12,8 +12,12 @@ html .container {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-direction: row;
+}
+body .container p,
+html .container p {
+  margin: 0;
 }
 body .container .line,
 html .container .line {
