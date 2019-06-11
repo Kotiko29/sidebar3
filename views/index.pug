@@ -1,4 +1,7 @@
 extends layout
 
 block content
-    div сюда
+    a( href="/?page="+(page-1) ) <
+    article= text
+        div( class="num" )= page
+    a( href="/?page="+(page+1) ) >
