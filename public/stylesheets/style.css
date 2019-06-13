@@ -14,26 +14,29 @@ html .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   background: #d3d3d3;
   padding: 50px;
 }
-body .container a,
-html .container a {
+a {
   padding: 10px;
 }
-body .container article,
-html .container article {
+article {
   display: block;
   padding: 15px 20px 30px;
   text-indent: 15px;
-  width: 300px;
+  width: 400px;
   min-height: 100%;
   background: #fff;
   position: relative;
 }
-body .container article .num,
-html .container article .num {
+.nuvig {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  text-indent: 0px;
+}
+.num {
   padding: 5px;
   position: absolute;
   right: 0;

@@ -7,5 +7,8 @@ html
     title=title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    div.header
+      each link in links
+        a(href=link) #{link}
     div.container
       block content
