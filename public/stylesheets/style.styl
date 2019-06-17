@@ -15,6 +15,7 @@ body, html
         flex-direction column
         background lightgray
         padding 50px
+        margin-top 10px
 
 a
     padding 10px
@@ -22,10 +23,12 @@ a
 main
     display flex
     justify-content center
-    align-items center
     flex-direction row
-    
-  
+    align-items: stretch;
+    min-height: 100%
+    flex-wrap: wrap
+
+
 article
     padding 15px 20px 30px
     text-indent 15px
@@ -33,13 +36,14 @@ article
     min-height 100%
     background white
     position relative
-    
+
         
 .sidebar
-    border-right 2px solid yellow
+    border-right 2px solid DarkCyan
     width 20%
     padding-right 5px
     margin-right 10px
+    min-height: 100%
 
 .nuvig
     width 100%
@@ -52,3 +56,4 @@ article
     position absolute
     right 0
     bottom 0
+
