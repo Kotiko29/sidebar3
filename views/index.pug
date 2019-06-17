@@ -1,8 +1,11 @@
 extends layout
 
 block content
-    article= text
-        div(class = "num")= page
+    main
+        div.sidebar= text
+        article= text
+            div(class = "num")= page
+     
     div.nuvig
         if page > 1
             a( href="/?page=" + (page - 1) ) <
